@@ -1,0 +1,4 @@
+<!--pages/personal/touchAdmin/touchAdmin.wxml-->
+<view>
+  <image style='width:750rpx;height:3000rpx' src='/images/our.jpg'></image>
+</view>

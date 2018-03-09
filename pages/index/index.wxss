@@ -1,0 +1,121 @@
+/**index.wxss**/
+@import '../util-common/util-common.wxss';
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+
+.register_xyz {
+            background-color: #fff;
+            position: relative;
+            margin-top: 0.21rem;
+}
+
+.list_item {
+           background-color: #fff;margin-top: 0.4rem;position: relative;
+        }
+.xx_info {
+            padding: 0px 0.625rem;
+            padding-bottom: 0.416rem;
+            border-bottom: 1px solid #e6e6e6;
+            position: relative;
+}
+.time {
+            height: 1rem;
+            background-color: #fafafa;
+            padding-left: 0.625rem;
+            color: #888888;
+            border-top: 1px solid #CCCCCC;
+            line-height: 1rem;
+            padding-right: 0.225rem;
+            text-align: left;
+            padding-top: 0.4rem;
+            padding-bottom: 0.4rem;
+            font-size: 0.9rem;
+}
+.name {
+            display: flex;
+            display: -webkit-flex;
+            line-height: 0.8rem;
+            height: 25px;
+            border-top: 1px solid #e6e6e6;
+            padding-top: 8rpx
+}
+.title1 {
+            flex: 1;font-size: 1rem;
+}
+.title2 {
+            flex: 1;font-size: 0.812rem
+}
+.title3 {
+            font-size: 1rem;
+}
+.fontstyle1{
+  font-size: 1rem;flex: 1;color: #e54935;
+}
+.spanstyle {
+            flex: 1;
+            font-size: 0.512rem;
+}
+.xx_info_p {
+            line-height: 1rem;
+            font-size: 0.8rem;
+            color: #808080;
+}
+.qd {
+  text-align: left;
+            display: block;
+            height: 1.184rem;
+            font-size: 0.85rem;
+            line-height: 1.184rem;
+            /*border-bottom: 1px solid #ccc;*/
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 5px 0.576rem;
+            flex-direction:row;
+}
+.qdbutton{
+  width:40%;size:50px;height:1.5rem;background-color: #d81e06; line-height: 1.5rem;justify-content:flex-end;margin-right:2px
+}
+
+
+        

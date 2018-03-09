@@ -1,0 +1,44 @@
+<!--pages/personal/personal.wxml-->
+<view class="main">
+    <view class="header">
+        <image src="{{userInfo.avatarUrl}}" class="thumb"></image>
+        <text class="nickname">{{userInfo.nickName}}</text>
+        <navigator url="touchAdmin/touchAdmin" hover-class="switchTab">
+        <text class="about">关于我们</text>
+        </navigator>
+    </view>
+    <view>
+        <view class="orders"></view> 
+        <view class="orders-number" bindtap='buying'>
+           <image src="../../images/index.png" class='logo'></image>
+           <text>抢购列表</text>
+           <image src="../../images/turnin.png" class='logoright'></image>
+        </view>
+        <view class="orders-number" bindtap='purch'>
+           <image src="../../images/purch.png" class='logo'></image>
+           <text>已购列表</text>
+           <image src="../../images/turnin.png" class='logoright'></image>
+        </view>
+        <navigator url="modifyPass/modifyPass" hover-class="navigator-hover">
+        <view class="orders-number">
+           <image src="../../images/modifyPass.png" class='logo'></image>
+           <text>修改密码</text>
+           <image src="../../images/turnin.png" class='logoright'></image>
+        </view>
+        </navigator>
+        <navigator url="help/help" hover-class="navigator-hover">
+        <view class="orders-number">
+           <image src="../../images/bangzhu.png" class='logo'></image>
+           <text>帮助中心</text>
+           <image src="../../images/turnin.png" class='logoright' ></image>
+        </view>
+        </navigator>
+        <navigator url="login/login" hover-class="switchTab">
+          <view class="section" style='width:500rpx;padding-top:20rpx;margin-left:125rpx'>
+            <view class="btn-area" >
+              <button type="primary" ontap="login">登录</button>
+            </view>
+          </view>
+        </navigator>
+    </view>
+</view>

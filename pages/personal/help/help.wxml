@@ -1,0 +1,4 @@
+<!--pages/personal/help/help.wxml-->
+<view>
+  <image style='width:750rpx;height:4000rpx' src='/images/bangzhuzhong.jpg'></image>
+</view>

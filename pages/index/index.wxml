@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view >
+  <image style='width:100%;height:180px' src="{{src}}"></image>
+</view>
+<view class='list_item'>
+  <view class='time'>申请时间：2018-01-29 07:41.08</view>
+  <view class='xx_info'>
+    <view class="name">
+      <text class='title1'>秦斯</text><text class='title2'>榆林市</text><text class='title3'><text class='fontstyle1'>9</text>万元</text>
+    </view>
+    <view class='xx_info_p'>购车贷</view>
+    <view class='xx_info_p'>外地户口</view>
+    <view class='xx_info_p'>没带钱  无商品房  无车产</view>
+    <view class='name'>
+     <text class='qd'>￥10</text><text class='qd' style='font-size: 0.55rem;'>￥20元</text><button class='qdbutton'>抢单</button>
+    </view>
+  </view>
+</view>
+<view class='list_item'>
+  <view class='time'>申请时间：2018-01-29 07:41.08</view>
+  <view class='xx_info'>
+    <view class="name">
+      <text class='title1'>张三</text><text class='title2'>西安市</text><text class='title3'><text class='fontstyle1'>1</text>万元</text>
+    </view>
+    <view class='xx_info_p'>本地户口</view>
+    <view class='xx_info_p'>什么鬼</view>
+    <view class='name'>
+     <text class='qd'>￥5</text><text class='qd' style='font-size: 0.55rem;'>￥10元</text><button class='qdbutton'>抢单</button>
+    </view>
+  </view>
+</view>
+<view class='list_item'>
+  <view class='time'>申请时间：2018-01-29 07:41.08</view>
+  <view class='xx_info'>
+    <view class="name">
+      <text class='title1'>张思</text><text class='title2'>保定市</text><text class='title3'><text class='fontstyle1'>2</text>万元</text>
+    </view>
+    <view class='xx_info_p'>外地户口</view>
+    <view class='xx_info_p'>不知道</view>
+    <view class='name'>
+     <text class='qd'>￥5</text><text class='qd' style='font-size: 0.55rem;'>￥10元</text><button class='qdbutton'>抢单</button>
+    </view>
+  </view>
+</view>
+

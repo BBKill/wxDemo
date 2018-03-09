@@ -1,0 +1,74 @@
+/* pages/personal/personal.wxss */
+@import '../util-common/util-common.wxss';
+
+.header{
+    position: relative;
+    height: 190rpx;
+    line-height: 100rpx;
+    padding:30rpx 20rpx 20rpx 150rpx;
+    box-sizing: border-box;
+    background: #2aa515;
+    font-size: 28rpx;
+    color: #fff;
+    border-bottom: 1rpx solid #e9e9e9;
+}
+.header .thumb{
+    position: absolute;
+    left: 60rpx;
+    top: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.header .nickname{
+    position: absolute;
+    left: 180rpx;
+    top: 50rpx;
+    width: 100rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    border-radius: 50%;
+    font-size:32rpx;
+}
+.header .about{
+    float: right;
+    padding-top: 20rpx;
+}
+.orders-number{
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1rpx solid #e9e9e9;
+    font-size:30rpx;
+    /* padding: 40rpx; */
+    color: #2c2c2c;
+    background-color: #fff;
+    padding:20rpx 100rpx 20rpx 110rpx ;
+}
+.orders{
+    height: 20rpx;
+    border-bottom: 1rpx solid #e9e9e9;
+    text-align: center;
+}
+.orders-box{
+    /* color: #999; */
+    font-size: 28rpx;
+}
+.logo{
+     position: absolute; 
+    left: 30rpx;
+    /* top: -20rpx; */
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 50%;
+    padding-bottom: 20rpx
+}
+.logoright{
+   position: absolute; 
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 20%;
+     padding-bottom: 20rpx; 
+    float: right;
+     padding-top: 10rpx; 
+    padding-left:450rpx;
+}

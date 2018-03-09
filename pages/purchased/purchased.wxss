@@ -1,0 +1,124 @@
+/* pages/purchased/purchased.wxss */
+@import '../util-common/util-common.wxss';
+
+page,.main{
+    height: 100%;
+    color:#2c2c2c
+}
+.categroy-left{
+    float: left;
+    width: 150rpx;
+    height: 100%;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.categroy-right{
+    float: right;
+    width: 600rpx;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+
+.categroy-left .cate-list{
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    border-left: 3px solid #fff;
+}
+.categroy-left .cate-list.on{
+    color: #0e932e;
+    border-color: #0e932e;
+}
+
+.cate-box{
+    height: 100%;
+    padding:40rpx;
+    box-sizing: border-box;
+}
+.cate-box .cate-banner image{
+    display: block;
+    width: 100%;
+    height: 190rpx;
+}
+.cate-title{
+    position: relative;
+    height: 30rpx;
+    line-height: 30rpx;
+    padding:30rpx 0 30rpx;
+    text-align: center;
+    color: #0e932e;
+    font-size: 28rpx;
+}
+.cate-title::before{
+    position: absolute;
+    left: 130rpx;
+    top: 43rpx;
+    content: '';
+    width: 70rpx;
+    height: 4rpx;
+    background: #0e932e;
+}
+.cate-title::after{
+    position: absolute;
+    right: 130rpx;
+    top: 43rpx;
+    content: '';
+    width: 70rpx;
+    height: 4rpx;
+    background: #0e932e;
+}
+
+.product-list{
+    display: inline-block;
+    width: 160rpx;
+    height: 160rpx;
+    text-align: center;
+    margin:0 20rpx 20rpx 0;
+    font-size: 24rpx;
+}
+.product-list image{
+    width: 80rpx;
+    height: 80rpx;
+    margin-bottom: 20rpx;
+}
+.product-list:nth-child(3n){
+    margin-right: 0;
+}
+
+.name {
+            display: flex;
+            display: -webkit-flex;
+            line-height: 0.8rem;
+            height: 25px;
+            border-top: 1px solid #e6e6e6;
+            padding-top: 20rpx
+}
+.title1 {
+            flex: 1;font-size: 1rem;
+}
+.xx_info_p {
+            line-height: 1rem;
+            font-size: 0.8rem;
+            color: #808080;
+}
+.title2 {
+            flex: 1;font-size: 0.812rem
+}
+.xx_info {
+            padding: 0px 0.625rem;
+            padding-bottom: 0.416rem;
+            /* border-bottom: 1px solid #e6e6e6; */
+            position: relative;
+            background-color:#f9f9f9;
+            margin-bottom: 10rpx
+}
+.title3 {
+            font-size: 1rem;
+}
+.fontstyle1{
+  font-size: 1rem;flex: 1;color: #e54935;
+}

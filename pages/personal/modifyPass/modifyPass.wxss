@@ -1,0 +1,11 @@
+/* pages/personal/modifyPass/modifyPass.wxss */
+.btn-area button{
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    width: 600rpx
+}
+.page input{
+    padding: 20rpx 30rpx;
+    background-color: #fff;
+    border-bottom: 1px solid #dddddd;
+}

@@ -1,0 +1,17 @@
+<!--pages/personal/modifyPass/modifyPass.wxml-->
+<view class='page'>
+      <view class="section" style='padding-top:40rpx'>
+        <input type="text" bindinput='bindEmailInput' placeholder="输入原始密码" auto-focus />
+      </view>
+      <view class="section" style='padding-top:10rpx'>
+        <input type="password" bindinput='bindPasswordInput' placeholder="重新设置密码" />
+      </view>
+      <view class="section" style='padding-top:10rpx'>
+        <input type="password" bindinput='bindPasswordInput' placeholder="再次输入密码" />
+      </view>
+      <view class="section" style='padding-top:40rpx'>
+        <view class="btn-area">
+           <button type="primary" ontap="login">确认修改</button>
+        </view>
+      </view>
+</view>
